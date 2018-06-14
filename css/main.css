@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+/* --- sideNav --- */
+#sideNav {
+  background-color: #303030;
+  width: 60px;
+  height: 900px;
+  display: inline-block;
+  float:left;
+}
+#sideNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 0 7px;
+  line-height: 60px;
+}
+#sideNav img {
+  border-radius: 5px;
+  list-style-type: none;
+  transition: 0.1s;
+}
+#sideNav ul li:hover {
+  opacity: 1;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+/* --- header ---  */
+#header {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  box-shadow: 60px 2px 1px -1px #B0B0B0;
+  width: 100%;
+}
+#header ul li {
+  list-style-type: none;
+}
+#header ul li a .logo{
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: -16px 0 0 -40px;
+}
+#header h1 {
+  font-weight: 100;
+  font-size: 23px;
+  color: #303030;
+  margin-left: 40px;
+}
+#header i {
+  color: #303030;
+  float: right;
+  margin: -35px 30px 0 0;
+}
+
+/* --- left --- */
+#left aside {
+  width: 30%;
+  padding-top: 5px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #e8e8e8;
+  float: left;
+}
+#left aside h5, p {
+  font-size: 13px;
+  margin-top: 10px;
+  padding-left: 15px;
+  margin-bottom: -5px;
+}
+#left aside p {
+  margin-bottom: 10px;
+}
+#left .line {
+  opacity: 0.25;
+}
+
+/* --- main --- */
+#main {
+  display: inline-block;
+  float: left;
+  width: 60%;
+  padding-left: 20px;
+}
+#main h4 {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  margin-left: 10px;
+}
+#main h5 {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 10px;
+}
+#main .mainLine {
+  width:80%;
+  margin-top: -10px;
+  margin-left: 10px;
+  opacity: 0.25;
+}
+#main p {
+  font-size: 14px;
+}
+#main p:first-of-type::first-letter {
+  font-size: 45px;
+  line-height: 1;
+  margin-right: 5px;
+  float: left;
+}
+#main figure {
+  text-align: center;
+  margin-top: 30px;
+}
+#main figcaption {
+  font-size: 10px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+/* --- message --- */
+.lineMessage {
+  margin: 150px 0 30px -20px;
+  width: 150%;
+  opacity: 0.25;
+}
+.message {
+  font-size: 18px;
+  padding-left: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  margin-left: 20px;
+  opacity: 0.5;
+  border: 1px solid #d8d8d8;
+}
